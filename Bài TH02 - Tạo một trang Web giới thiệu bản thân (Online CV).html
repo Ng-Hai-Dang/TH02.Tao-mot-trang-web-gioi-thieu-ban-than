@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Đăng Nguyễn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .left-column,
+        .right-column {
+            flex: 1;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #ff69b4;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+
+        .header h1 {
+            margin: 5px 0;
+            font-size: 2em;
+            color: #fff;
+        }
+
+        .header p {
+            margin: 0;
+            font-style: italic;
+            color: #ffd1dc;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #444;
+            border-radius: 10px;
+        }
+
+        .section h2 {
+            background-color: #ff69b4;
+            padding: 5px;
+            border-radius: 5px;
+            margin: -10px -10px 10px -10px;
+            color: #fff;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #555;
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .skills li::before {
+            content: "★";
+            color: #ff69b4;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div class="header">
+                <h1>Nguyễn Hải Đăng</h1>
+                <p>Người con Tiểu vương quốc Long Biên</p>
+            </div>
+
+            <div class="section">
+                <h2>LIÊN HỆ</h2>
+                <p><strong>Điện thoại:</strong> 0973 485 955</p>
+                <p><strong>Email:</strong> haidang2k5@gmail.com</p>
+                <p><strong>Địa chỉ:</strong> Thạch Bàn, Long Biên, Hà Nội</p>
+                <p><strong>Tên gọi khác:</strong> Hải Đăng</p>
+            </div>
+
+            <div class="section">
+                <h2>HỌC VẤN</h2>
+                <p>Sinh viên năm hai Trường Kinh Doanh - Đại học Kinh tế Quốc dân</p>
+                <p>Chuyên ngành: Thương mại điện tử</p>
+                <p><strong>IELTS:</strong> 7.0</p>
+                <p><strong>GPA:</strong> 4.0/4.0</p>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="section">
+                <h2>KINH NGHIỆM</h2>
+                <p>BTC Cuộc thi E-BattleField 2024 (Thực chiến kinh doanh trên các sàn TMĐT xuyên biên giới).</p>
+                <p>Có tìm hiểu và nghiên cứu về các kiến thức liên quan đến kinh tế.</p>
+                <p>Đã và đang tham gia các cuộc thi học thuật liên quan đến khối kinh tế như:</p>
+                <ul>
+                    <li>Top 30 Logichain (Logistics)</li>
+                    <li>Rocket to Business Development (Kinh doanh)</li>
+                    <li>Social Pioneers (Marketing)</li>
+                    <li>E-compete (TMĐT)</li>
+                </ul>
+            </div>
+
+            <div class="section skills">
+                <h2>KỸ NĂNG</h2>
+                <ul>
+                    <li>Presentation</li>
+                    <li>Creativity</li>
+                    <li>Editing</li>
+                    <li>Communication</li>
+                    <li>Time - organisation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.header').addEventListener('click', function () {
+            alert('Chào mừng đến với CV của Đặng Nguyễn!');
+        });
+    </script>
+</body>
+
+</html>
